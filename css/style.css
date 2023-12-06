@@ -1,0 +1,102 @@
+@font-face {
+	font-display: swap;
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 900;
+	src: url('../fonts/raleway-v29-cyrillic_latin-900.woff2') format('woff2');
+}
+
+html,
+body {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.page {
+	padding: 0 1vw;
+	background-color: antiquewhite;
+}
+
+/* Header */
+.header {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.header__heading {
+	font-family: 'Raleway';
+	font-size: 6.4vw;
+	font-size: clamp(2rem, 5vw + 1rem, 7rem);
+	font-weight: 900;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 0.4em;
+	margin-bottom: 0.1em;
+	text-shadow: -0.05em 0.05em 0px #b27010;
+}
+
+.header__subheading {
+	color: #462d08;
+	font-size: 3.2vw;
+	font-size: clamp(2rem, 5vw + 1rem, 2rem);
+	font-weight: bold;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 1.5em;
+}
+
+/* Figma frame */
+.figma {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
+	height: 100%;
+}
+
+.figma__feedback {
+	text-align: start;
+	font-size: 1.2em;
+    margin-top: 0;
+	margin-bottom: 0.7em;
+}
+
+.figma__frame {
+	box-sizing: border-box;
+	width: 100%;
+	min-height: 800px;
+	border-radius: 5px;
+}
+
+/* Controls info */
+.controls {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.controls__heading {
+	text-align: center;
+}
+
+.controls__list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.controls__term {
+	font-weight: bold;
+	width: 50%;
+    margin-bottom: 1em;
+}    
+
+.controls__value {
+	margin: 0;
+	margin-bottom: 1em;
+}
+
+/* Footer */
+.footer__author {
+	margin: 3em 0;
+	text-align: center;
+}

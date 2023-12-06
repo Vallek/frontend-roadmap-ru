@@ -1,0 +1,15 @@
+{
+	"frontend": {
+		"Веб": {
+			"description": "Устройство сети Интернет и веба",
+			"sections": {
+				"Устройство сети Интернет": "https://vallek.github.io/web-pres/internet.html",
+				"": "",
+				"": ""
+			}
+		}, 
+		"HTML": "",
+		"CSS": "",
+		"JavaScript": "",
+	}
+}
