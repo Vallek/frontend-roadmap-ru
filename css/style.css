@@ -50,7 +50,6 @@ body {
 	margin: 0 auto;
 	width: 100%;
 	max-width: 1200px;
-	height: 100%;
 }
 
 .figma__feedback {
@@ -63,7 +62,7 @@ body {
 .figma__frame {
 	box-sizing: border-box;
 	width: 100%;
-	min-height: 800px;
+	max-height: 70vh;
 	border-radius: 5px;
 }
 
