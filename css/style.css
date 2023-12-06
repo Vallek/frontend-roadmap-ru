@@ -1,9 +1,9 @@
 @font-face {
-	font-display: swap;
 	font-family: 'Raleway';
 	font-style: normal;
 	font-weight: 900;
 	src: url('../fonts/raleway-v29-cyrillic_latin-900.woff2') format('woff2');
+	font-display: swap;
 }
 
 html,
@@ -24,7 +24,7 @@ body {
 }
 
 .header__heading {
-	font-family: 'Raleway';
+	font-family: 'Raleway', sans-serif;
 	font-size: 6.4vw;
 	font-size: clamp(2rem, 5vw + 1rem, 7rem);
 	font-weight: 900;
