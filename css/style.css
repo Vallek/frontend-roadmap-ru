@@ -25,7 +25,7 @@ body {
 
 .header__heading {
 	font-family: 'Raleway', sans-serif;
-	font-size: 6.4vw;
+	font-size: 5.9vw;
 	font-size: clamp(2rem, 5vw + 1rem, 7rem);
 	font-weight: 900;
 	text-align: center;
